@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Jua", "IBM Plex Sans KR", sans-serif;
+  --font-sans: "IBM Plex Sans KR", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: #FDF8EF;
+    color: #2B2118;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom subtle polka-dot toybox backdrop for the stage only */
+.stage-backdrop {
+  background-color: #FFFDF8;
+  background-image: radial-gradient(#E8DCCB 1.25px, transparent 1.25px);
+  background-size: 20px 20px;
+}

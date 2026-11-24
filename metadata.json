@@ -1,0 +1,6 @@
+{
+  "name": "두근두근 발표 팀 뽑기",
+  "description": "팀 수를 입력하면 귀여운 캡슐 뽑기와 마스코트 애니메이션으로 발표 팀을 선정해주는 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
